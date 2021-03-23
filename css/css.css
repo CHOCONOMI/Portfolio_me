@@ -5,3 +5,7 @@
     box-sizing: border-box;
     font-family: 'Gugi', cursive;
 }
+
+body {
+    background-color: #ffd8d7;
+}
