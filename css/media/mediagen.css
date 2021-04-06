@@ -1,0 +1,81 @@
+/****************************************
+#  CONFIGURACION BANNER Y FOOTER       *
+****************************************/
+
+@media only screen and (max-width:1440px) {
+    .banner {
+        width: auto;
+        height: 8em;
+    }
+    .logo {
+        margin: 1em;
+        margin-left: 10em;
+    }
+    
+    .inicio {
+        width: 80em;
+        margin-right: 3em;
+    }
+    
+    .area {
+        width: 15em;
+    }
+    
+    footer {
+        padding: 1em;
+    }
+    .pinfo{
+        width: 90em;
+        padding: 5em 0em 5em 0em;
+    }
+    
+    body {
+        width:auto;
+        height: auto;
+    }
+    
+}
+
+@media only screen and (max-width:1366px) {}
+
+@media only screen and (max-width:1024px) {}
+
+@media only screen and (max-width:768px) {}
+
+@media only screen and (max-width: 480px) {
+    .banner {
+        width: auto;
+        height: 20em;
+    }
+    .inicio {
+        width: 50em;
+    }
+    
+    
+    footer {
+        padding: 0.2em;
+    }
+    .pinfo{
+        width: auto;
+        padding: 1em 0em 1em 0em;
+        display: flex;
+        flex-direction: column;
+    }
+    .ipart {
+        width: 80em;
+        border: none; 
+        margin-top: 1em;
+    }
+    .ipart p{
+        font-size: 1em;
+    }
+    .m {
+        font-size: 0.8em;
+    }
+    .ilinks img {
+        width: 3em;
+    }
+    
+}
+
+@media only screen and (max-width:320px) {}
